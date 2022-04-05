@@ -17,7 +17,7 @@
     "react-native": "0.64.3",
     "react-native-custom-statusbar": "^1.0.4",
     "react-native-web": "0.17.1",
-    "react-native-webview": "^11.18.1"
+    "react-native-webview": "11.15.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9"
