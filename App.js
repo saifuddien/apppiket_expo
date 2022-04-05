@@ -1,20 +1,19 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet } from 'react-native';
+import WebView from 'react-native-webview';
+import StatusBarCustom from 'react-native-custom-statusbar';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <StatusBarCustom backgroundColor="#f59800" barStyle="light-content">
+      <WebView style={styles.container} source={{ uri: 'https://piketsabtu.netlify.app' }} />
+    </StatusBarCustom>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    marginTop: 35,
+    borderTopWidth: 2,
+    borderTopColor: 'black'
   },
 });
