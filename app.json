@@ -16,18 +16,9 @@
     "assetBundlePatterns": [
       "**/*"
     ],
-    "ios": {
-      "supportsTablet": true
-    },
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png"
-      },
       "package": "com.ramadhan.piket",
       "versionCode": 1
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
     }
   }
 }
